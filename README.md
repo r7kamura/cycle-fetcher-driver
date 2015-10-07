@@ -33,3 +33,5 @@ Cycle.run(
   }
 );
 ```
+
+![image](https://cloud.githubusercontent.com/assets/111689/10337006/dd4992f6-6d37-11e5-935f-381e99796915.png)
