@@ -1,0 +1,28 @@
+{
+  "name": "@r7kamura/cycle-fetcher-driver",
+  "version": "0.0.1",
+  "description": "A Cycle.js Driver for making HTTP requests using fetcher.",
+  "repository": "https://github.com/r7kamura/cycle-fetcher-driver",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-watch": "^4.3.5"
+  },
+  "scripts": {
+    "compile": "gulp compile",
+    "watch": "gulp watch"
+  },
+  "author": "Ryo Nakamura <r7kamura@gmail.com> (https://github.com/r7kamura)",
+  "license": "MIT",
+  "dependencies": {
+    "@cycle/core": "^3.1.0",
+    "stackable-fetcher": "^0.4.0"
+  }
+}
