@@ -1,6 +1,6 @@
 {
   "name": "@r7kamura/cycle-fetcher-driver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Cycle.js Driver for making HTTP requests using fetcher.",
   "repository": "https://github.com/r7kamura/cycle-fetcher-driver",
   "main": "lib/index.js",
