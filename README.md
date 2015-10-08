@@ -16,7 +16,7 @@ Cycle.run(
   ({ DOM, HTTP }) => {
     const url = 'http://example.com';
     const request$ = Rx.Observable.just({ method: 'GET', url });
-    const vtree$ = responses.HTTP
+    const vtree$ = HTTP
       .filter((response$) => response$.request.url === url)
       .mergeAll()
       .map(({ body }) => body)
