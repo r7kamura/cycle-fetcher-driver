@@ -15,7 +15,7 @@ import { makeFetcherDriver } from '@r7kamura/cycle-fetcher-driver';
 Cycle.run(
   ({ DOM, HTTP }) => {
     const url = 'http://example.com';
-    const request$ = Rx.Observable.just({ method: 'GET', url });
+    const request$ = Cycle.Rx.Observable.just({ method: 'GET', url });
     const vtree$ = HTTP
       .filter((response$) => response$.request.url === url)
       .mergeAll()
